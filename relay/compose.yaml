@@ -1,0 +1,10 @@
+services:
+  relay:
+    build: .
+    restart: unless-stopped
+    environment:
+      PORT: "8080"
+      MAX_PLAYERS: "8"
+      ROOM_TTL_MS: "21600000"
+    ports:
+      - "8080:8080"

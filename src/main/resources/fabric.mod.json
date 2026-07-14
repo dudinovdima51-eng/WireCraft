@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "wirecraft",
+  "version": "${version}",
+  "name": "WireCraft",
+  "description": "Password-protected remote rooms for trusted Fabric players.",
+  "authors": ["WireCraft"],
+  "environment": "client",
+  "entrypoints": { "client": ["dev.wirecraft.WireCraftClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}

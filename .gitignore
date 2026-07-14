@@ -1,0 +1,8 @@
+.gradle/
+build/
+out/
+relay/node_modules/
+relay/.env
+config/
+run/
+relay/.pid
