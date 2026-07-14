@@ -21,4 +21,4 @@ See [relay/README.md](relay/README.md) for Docker deployment and [docs/PROTOCOL.
 
 ## Configuration
 
-The mod reads `config/wirecraft.json`. Its default relay URL is intended only for local development. A release must set `relayUrl` to the operator's `wss://` endpoint.
+The release uses the project Relay at `ws://192.124.189.132:8080/ws`. You can override it in `config/wirecraft.json`. For production use, put the Relay behind TLS and use a `wss://` endpoint.
